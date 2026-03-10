@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guitar Fire 🔥</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-gradient-to-br from-gray-200 to-gray-400 p-4 md:p-8 antialiased selection:bg-red-500 selection:text-white">
+    
+    <header class="w-full flex items-center justify-between p-5 bg-white/90 backdrop-blur-md rounded-2xl shadow-lg sticky top-5 z-50 border border-white/20">
+        <a href="index.html">
+            <h1 class="text-2xl font-black tracking-tighter hover:scale-105 hover:text-red-600 transition-all duration-300 ease-in-out uppercase italic">
+                Guitar <span class="text-red-500">Fire</span> 🔥
+            </h1>
+        </a>
+        <ul class="hidden md:flex gap-8 font-semibold text-gray-700">
+            <li class="hover:text-red-500 transition-colors"><a href="#hero-section">Início</a></li>
+            <li class="hover:text-red-500 transition-colors"><a href="#guitars">Guitarras</a></li>
+            <li class="hover:text-red-500 transition-colors"><a href="#curiosidades">Curiosidades</a></li>
+        </ul>
+    </header>
+
+    <main class="flex flex-col items-center mt-10 gap-16">
+        
+        <section id="hero-section" class="min-h-[80vh] w-full bg-white rounded-3xl shadow-2xl flex flex-wrap overflow-hidden border border-gray-100">
+            <div class="w-full md:w-1/2 flex flex-col p-8 md:p-16 items-start justify-center gap-8">
+                <div class="space-y-4">
+                    <span class="text-red-600 font-bold tracking-widest uppercase text-sm italic underline decoration-2">Lendas do Rock</span>
+                    <h1 class="text-5xl md:text-7xl font-black leading-tight text-gray-900">Domine o <span class="text-red-500">Palco</span></h1>
+                    <p class="text-xl md:text-2xl text-gray-500 leading-relaxed">Conheça os ícones que moldaram a história da música com seis cordas e muita distorção.</p>
+                </div>
+                <a href="https://rollingstone.com.br/musica/os-250-melhores-guitarristas-de-todos-os-tempos/" target="_blank" class="group">
+                    <button class="bg-gray-900 text-white px-10 py-5 rounded-2xl text-lg font-bold group-hover:bg-red-600 group-hover:shadow-xl group-hover:shadow-red-500/30 transition-all duration-300 flex items-center gap-3">
+                        Explorar Ranking <span class="group-hover:translate-x-2 transition-transform">→</span>
+                    </button>
+                </a>
+            </div>
+            
+            <div class="w-full md:w-1/2 flex flex-wrap items-center justify-center p-8 gap-4 bg-gray-50">
+                <img src="/static/imgs/img-1038395-joe-satriani.jpg" alt="Joe Satriani" class="h-40 md:h-52 w-5/12 object-cover rounded-3xl shadow-lg hover:rotate-2 transition-transform duration-500 border-4 border-white">
+                <img src="/static/imgs/Jimi-Hendrix-830x400.jpg" alt="Jimi Hendrix" class="h-40 md:h-52 w-5/12 object-cover rounded-3xl shadow-lg hover:-rotate-2 transition-transform duration-500 border-4 border-white">
+                <img src="/static/imgs/slash-guitarrista-guns-n-roses-2015-01-dph.jpg" alt="Slash" class="h-40 md:h-52 w-5/12 object-cover rounded-3xl shadow-lg hover:-rotate-2 transition-transform duration-500 border-4 border-white">
+                <img src="/static/imgs/NN57Q7JUGNHNBO6EIGE3OG442A.avif" alt="Eric Clapton" class="h-40 md:h-52 w-5/12 object-cover rounded-3xl shadow-lg hover:rotate-2 transition-transform duration-500 border-4 border-white">
+            </div>
+        </section>
+
+        <section id="guitars" class="w-full bg-gray-900 text-white rounded-3xl shadow-2xl p-8 md:p-16">
+            <div class="flex flex-col md:flex-row justify-between items-end mb-12 gap-4">
+                <div>
+                    <h2 class="text-4xl font-black italic uppercase">Modelos <span class="text-red-500">Icônicos</span></h2>
+                    <p class="text-gray-400 mt-2">As máquinas que transformam eletricidade em arte.</p>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+                <div class="group overflow-hidden rounded-2xl bg-white/5 p-2">
+                    <img src="/static/imgs/joe_guitar.JPG" alt="Ibanez JS" class="w-full h-64 object-cover rounded-xl group-hover:scale-110 transition-transform duration-500">
+                    <p class="text-center mt-3 font-bold text-gray-300">Ibanez JS Series</p>
+                </div>
+                <div class="group overflow-hidden rounded-2xl bg-white/5 p-2">
+                    <img src="/static/imgs/les paul.jpg" alt="Les Paul" class="w-full h-64 object-cover rounded-xl group-hover:scale-110 transition-transform duration-500">
+                    <p class="text-center mt-3 font-bold text-gray-300">Gibson Les Paul</p>
+                </div>
+                <div class="group overflow-hidden rounded-2xl bg-white/5 p-2">
+                    <img src="/static/imgs/strato-preta.jpg" alt="Black Strat" class="w-full h-64 object-cover rounded-xl group-hover:scale-110 transition-transform duration-500">
+                    <p class="text-center mt-3 font-bold text-gray-300">Fender Stratocaster</p>
+                </div>
+                <div class="group overflow-hidden rounded-2xl bg-white/5 p-2">
+                    <img src="/static/imgs/strato.avif" alt="Vintage Strat" class="w-full h-64 object-cover rounded-xl group-hover:scale-110 transition-transform duration-500">
+                    <p class="text-center mt-3 font-bold text-gray-300">Custom Shop Strat</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="curiosidades" class="w-full bg-white rounded-3xl shadow-2xl p-8 md:p-16 mb-10 border border-gray-100">
+            <h2 class="text-4xl font-black mb-12 text-center text-gray-900 uppercase tracking-tighter italic">
+                <span class="text-red-500 underline decoration-gray-900">Curiosidades</span> de mestre
+            </h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-gray-50 p-8 rounded-2xl border-l-8 border-red-500 hover:shadow-xl transition-shadow">
+                    <h3 class="text-xl font-bold mb-3 text-red-600">O Professor de Lendas (Satriani)</h3>
+                    <p class="text-gray-600 leading-relaxed">Antes de ser uma estrela mundial, Satriani deu aulas para outros grandes nomes como <strong>Steve Vai</strong> e <strong>Kirk Hammett</strong> (Metallica). Ele é conhecido por sua técnica impecável de *legato*.</p>
+                </div>
+
+                <div class="bg-gray-50 p-8 rounded-2xl border-l-8 border-gray-900 hover:shadow-xl transition-shadow">
+                    <h3 class="text-xl font-bold mb-3 text-gray-900">A Inversão Revolucionária (Hendrix)</h3>
+                    <p class="text-gray-600 leading-relaxed">Canhoto, Hendrix tocava com uma Fender Stratocaster para destros virada de cabeça para baixo. Isso mudava a tensão das cordas e criava o timbre único que ninguém consegue replicar exatamente.</p>
+                </div>
+
+                <div class="bg-gray-50 p-8 rounded-2xl border-l-8 border-orange-500 hover:shadow-xl transition-shadow">
+                    <h3 class="text-xl font-bold mb-3 text-orange-600">A Falsa Gibson (Slash)</h3>
+                    <p class="text-gray-600 leading-relaxed">O álbum *Appetite for Destruction* foi gravado com uma réplica de Les Paul feita por um luthier (Kris Derrig), e não uma Gibson oficial da época. A marca Gibson amou tanto que depois fez modelos oficiais baseados na réplica!</p>
+                </div>
+
+                <div class="bg-gray-50 p-8 rounded-2xl border-l-8 border-blue-500 hover:shadow-xl transition-shadow">
+                    <h3 class="text-xl font-bold mb-3 text-blue-600">O Leilão Milionário (Clapton)</h3>
+                    <p class="text-gray-600 leading-relaxed">Sua famosa guitarra "Blackie" (uma Stratocaster montada com partes de várias outras) foi vendida em um leilão por quase <strong>1 milhão de dólares</strong> para arrecadar fundos para seu centro de reabilitação.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="text-center p-10 text-gray-500 border-t border-gray-400 mt-10">
+        <p class="font-medium">© 2026 Guitar Fire - O som nunca para. 🤘</p>
+    </footer>
+
+</body>
+</html>
